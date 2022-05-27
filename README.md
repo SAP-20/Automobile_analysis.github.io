@@ -113,18 +113,8 @@ In the Command Prompt, You Can Try **Pip install *Package Name* ** where package
    ```
  
  
- **Note - The Folder already has two CSV FILE (names - cars_ds_final and cars_engage_2022).You can import any of one file for the analysis**
+ **Note - The Folder already has two CSV FILE (names - cars_ds_final and cars_engage_2022).You can use any of one file for the analysis**
  
- * Refernce - You can also check the jupyter notebook for the analysis(Attached in the File)*
-  * For downloading  the jupyter notebbok inside , you can try 
-  * ```shell
-   pip install jupyter notebook 
-   ```
-  
-  
-  * To run the notebook, You can type 
-  ```shell
-   jupyter notebook 
-   ```
+Refernce - You can also check the jupyter notebook for the analysis(Attached in the File):
    
  
