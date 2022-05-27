@@ -65,3 +65,62 @@ Unsupervised learning refers to the use of artificial intelligence (AI) algorith
 
 
 
+## Packages Used ##
+
+matplotlib==3.5.2
+missingno==0.5.1
+numpy==1.22.3
+pandas==1.4.2
+Pillow==9.1.1
+plotly==5.8.0
+scikit_learn==1.1.1
+seaborn==0.11.2
+streamlit==1.9.0
+streamlit_option_menu==0.3.2
+
+
+### Setup the Development Environment ###
+
+**Install**
+This project requires Python and the following Python libraries installed:
+
+1. [matplotlib](https://matplotlib.org/)
+2. [Numpy](https://numpy.org/)
+3. [missingno](https://pypi.org/project/missingno/)
+4. [Seaborn](https://pypi.org/project/seaborn/)
+5. [Pandas](https://pypi.org/project/pandas/)
+6. [pyplot](https://plotly.com/python/plotly-express/)
+7. [scikit_learn](https://scikit-learn.org/stable/)
+etc,....
+
+**Rest librarry are in the Packages Used Section**
+
+
+In the Command Prompt, You Can Try **Pip install *Package Name* ** where package name is the name of Python packages That You have to downaload
+
+
+
+**Adding the project to the system**
+
+* For Cloneing the project and Entering the Project Directory ,```shell
+   git clone 
+   cd Automobile_analysis.github.io
+   ```
+* For Running the Project , You can try : ```shell
+   streamlit run app.py
+   ```
+ 
+ 
+ **Note - The Folder already has two CSV FILE (names - cars_ds_final and cars_engage_2022).You can import any of one file for the analysis**
+ 
+ * Refernce - You can also check the jupyter notebook for the analysis(Attached in the File)*
+  * For downloading  the jupyter notebbok inside , you can try ```shell
+   pip install jupyter notebook 
+   ```
+  
+  
+  * To run the notebook, You can type ```shell
+   jupyter notebook 
+   ```
+   
+ 
