@@ -29,8 +29,6 @@ This report will follow a mathematical approach using a method called clustring 
 
 ### Challenge ###
 
-
-## Challenge ##
 The automotive industry is one of the largest industries out there it's a 2.6 trillion dollar industry!
 
 But inside the industry there are too many categories and subcategories constructed by too many variables that it almost safe to say that every category is an industry of itself. for instance the car body variable is a vital one, as diffrernt body types are being used for very different reason here is a list of some car body type:
@@ -42,3 +40,28 @@ But inside the industry there are too many categories and subcategories construc
 * CONVERTIBLE
 * SPORT-UTILITY VEHICLE (SUV)
 * MINIVAN
+
+**And this just to name a few!, here is a photo show some of car types in more details**
+
+
+![alt text](http://carsonelove.com/wp-content/uploads/2014/01/Type-of-Cars.jpg)
+
+
+And all of the variety above is only regarding the car body type which is only one variable!, not to mention that there are grey areas where some car body types can be irrelevant to customer decision.
+
+**So for a car company it's really a challenge to identify its strategic group as it really takes a lot of effort to put all variable in consideration.**
+
+**This report will have to main part**
+* Exploratory Data Analysis 
+* UnSupervised Learning 
+
+## Exploratory Data Analysjs ##
+Exploratory Data Analysis refers to the critical process of performing initial investigations on data so as to discover patterns,to spot anomalies,to test hypothesis and to check assumptions with the help of summary statistics and graphical representations.
+
+
+## UnSupervised Learning ##
+Unsupervised learning refers to the use of artificial intelligence (AI) algorithms to identify patterns in data sets containing data points that are neither classified nor labeled.
+
+
+
+
