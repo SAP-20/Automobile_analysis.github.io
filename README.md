@@ -102,11 +102,13 @@ In the Command Prompt, You Can Try **Pip install *Package Name* ** where package
 
 **Adding the project to the system**
 
-* For Cloneing the project and Entering the Project Directory ,```shell
+* For Cloneing the project and Entering the Project Directory ,
+* ```shell
    git clone 
    cd Automobile_analysis.github.io
    ```
-* For Running the Project , You can try : ```shell
+* For Running the Project , You can try : 
+* ```shell
    streamlit run app.py
    ```
  
@@ -114,12 +116,14 @@ In the Command Prompt, You Can Try **Pip install *Package Name* ** where package
  **Note - The Folder already has two CSV FILE (names - cars_ds_final and cars_engage_2022).You can import any of one file for the analysis**
  
  * Refernce - You can also check the jupyter notebook for the analysis(Attached in the File)*
-  * For downloading  the jupyter notebbok inside , you can try ```shell
+  * For downloading  the jupyter notebbok inside , you can try 
+  * ```shell
    pip install jupyter notebook 
    ```
   
   
-  * To run the notebook, You can type ```shell
+  * To run the notebook, You can type 
+  ```shell
    jupyter notebook 
    ```
    
