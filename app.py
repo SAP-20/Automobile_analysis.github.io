@@ -375,26 +375,12 @@ def training():                                  #Unsupervised Section
     plt.ylabel('Avg car price', fontsize=16)
     plt.xticks(fontsize=14);
     st.pyplot(clust4)
-
-    st.subheader("Now we check how many cars exists in each cluster")
-    clust5=plt.figure(figsize=(14,6))
-    sns.countplot(data=data, x= 'cluster', palette='viridis',order=data.cluster.value_counts().index);
-    # plt.yticks([i for i in range(0,65000,5000)])
-    plt.title('Number of cars in each cluster',fontsize=18)
-    plt.xlabel('Cluster',fontsize=16)
-    plt.ylabel('Number of cars', fontsize=16)
-    plt.xticks(fontsize=14);
-    st.pyplot(clust5)
-    st.subheader("Inference:")
-    st.write("We can generally say that even if clusters generated are not determinant yet we can see that they still can be useful")
-
-
+    
 
     st.subheader("Inference:")
     st.write("As shown in the scatter splits earlier , there is a clear seperation of clusters when it comes to prices")
+
     st.subheader("Now we check how many cars exists in each cluster")
-
-
     clust5=plt.figure(figsize=(14,6))
     sns.countplot(data=data, x= 'cluster', palette='viridis',order=data.cluster.value_counts().index);
     # plt.yticks([i for i in range(0,65000,5000)])
@@ -403,8 +389,10 @@ def training():                                  #Unsupervised Section
     plt.ylabel('Number of cars', fontsize=16)
     plt.xticks(fontsize=14);
     st.pyplot(clust5)
+    
     st.subheader("Inference:")
     st.write("We can generally say that even if clusters generated are not determinant yet we can see that they still can be useful")
+
 
 
 def conclusion():                                          #Concluding information about the Dataset
