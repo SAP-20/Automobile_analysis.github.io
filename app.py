@@ -25,7 +25,7 @@ with st.sidebar:                #SideBar Options
             options=[ "Upload Dataset","General Dataset Info", "Data Cleaning","Plot Visualization","Unsupervised Training","Overall Inference"],  # required
             default_index=0,  # optional
             )
-@st.cache
+
 def Upload():        #Upload The File
     st.title("AutoMobile Industry Analysis !")
     st.subheader("Data Analysis of Indian Automotive Industry Using Python & Streamlit")
